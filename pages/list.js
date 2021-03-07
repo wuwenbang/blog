@@ -2,7 +2,7 @@ import React from 'react'
 import { Row, Col, Layout } from 'antd'
 import Header from '../components/Header'
 
-const Home = () => (
+const List = () => (
   <Layout>
     <Header />
     <Row className="common-main" >
@@ -12,4 +12,4 @@ const Home = () => (
   </Layout>
 )
 
-export default Home
+export default List
