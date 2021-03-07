@@ -1,0 +1,31 @@
+.author {
+    .author-avatar {
+        margin: 16px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .author-name {
+        font-size: 1.2rem;
+        color: #1890ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .author-introduction {
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #999;
+        font-size: 1rem;
+    }
+    .author-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+            margin: 0.25rem;
+        }
+    }
+}

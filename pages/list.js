@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Row, Col, Layout, List } from 'antd'
 import Header from '../components/Header'
+import Author from '../components/Author'
+
 import { FireOutlined, CalendarOutlined, FolderOutlined } from '@ant-design/icons'
 const MyList = () => {
   const [data, setData] = useState(
@@ -33,7 +35,7 @@ const MyList = () => {
             )}
           />
         </Col>
-        <Col className="common-right" xs={0} sm={0} md={7} lg={5} xl={4}>Right</Col>
+        <Col className="common-right" xs={0} sm={0} md={7} lg={5} xl={4}><Author /></Col>
       </Row>
     </Layout>
   )
