@@ -4,5 +4,6 @@ import '../styles/pages/common.scss'
 import '../styles/pages/list.scss'
 import '../styles/components/header.scss'
 import '../styles/components/author.scss'
+import '../styles/components/advert.scss'
 
 export default App

@@ -7,7 +7,7 @@ import {
 } from '@ant-design/icons';
 const Author = () => {
     return (
-        <div className="author">
+        <div className="author common-box">
             <div className="author-avatar">
                 <Avatar size={100} src="https://user-gold-cdn.xitu.io/2020/6/12/172a463263cc9ee1?imageView2/1/w/180/h/180/q/85/format/webp/interlace/1" />
             </div>
