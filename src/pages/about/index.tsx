@@ -1,8 +1,8 @@
 import styles from './index.module.scss'
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.container}>
-      Hello World
+      about
     </div>
   );
 }
