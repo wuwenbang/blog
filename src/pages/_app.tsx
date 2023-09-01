@@ -2,6 +2,7 @@ import 'src/styles/globals.scss';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { Header } from 'src/components/header';
+import { Footer } from 'src/components/footer';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <Header/>
       <Component {...pageProps} />
+      <Footer/>
     </>
   );
 }
